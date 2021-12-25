@@ -1,0 +1,49 @@
+.home-technologies {
+    background: url('/public/images/brilliant.png');
+    background-color: var(--darkbg);
+    padding-bottom: 60px;
+    margin-bottom: 40px;
+  }
+
+.home-tech-container {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.home-tech {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+}
+
+.section-span-technologies {
+    float: right;
+    display: block;
+    width: 72px;
+    height: 5px;
+    background: linear-gradient(90deg, #f87537 0%, #fba81f 100%);
+    border-radius: 5px;
+}
+
+.section-header-technologies {
+    color: var(--darktext);
+    padding-top: 1.5%;
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.section-header-right {
+    text-align: right;
+    align-self: flex-end;
+    margin-right: 20%;
+}
+
+.icons {
+    background-color: green;
+    width: 100px;
+}
