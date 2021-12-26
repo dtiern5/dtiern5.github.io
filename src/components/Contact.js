@@ -30,7 +30,6 @@ function Contact() {
     return (
         <section className='contact' id='contact'>
                 <form onSubmit={(e) => {
-                    // e.preventDefault()
                     submit(nameRef.current.value, emailRef.current.value, messageRef.current.value)
                     nameRef.current.value = ''
                     emailRef.current.value = ''
