@@ -12,10 +12,10 @@ const Home = () => {
     return (
         <div className="home">
             <div className="home-intro">
-                <h2>
+                <h1>
                     <div className="title">{state.title}</div>
                     <div className="titleTwo">{state.titleTwo}</div>
-                </h2>
+                </h1>
                 <div className="text">
                     <Typewriter
                         onInit={(typewriter) => {

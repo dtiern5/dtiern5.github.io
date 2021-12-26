@@ -1,8 +1,13 @@
 .home {
     width: 100%;
     display: flex;
-    height: calc(70vh - 40px);
+    height: calc(65vh - 40px);
     
+}
+
+h1 {
+    font-size: 2em;
+    font-weight: bold;
 }
 
 .home-intro {
@@ -13,7 +18,6 @@
     align-items: flex-start;
     margin-left: 20%;
     margin-bottom: 50px;
-    font-size: 50px;
     color: white;
     text-align: left;
     align-items: flex-start;
@@ -22,13 +26,14 @@
 .title {
     animation-name: moveRight;
     animation-duration: 0.7s;
+    font-size: 2em;
 }
 
 .titleTwo {
     animation-name: moveLeft;
     animation-duration: 1s;
     color: var(--oj);
-
+    font-size: 2.5em;
 }
 
 .text {

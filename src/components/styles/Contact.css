@@ -1,0 +1,83 @@
+.contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 40px;
+}
+
+.contact-form {
+  /* background: url('/public/images/brilliant.png'); */
+  background-color: var(--darkbg);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 500px;
+  border-radius: 15px;
+  box-shadow: 5px 5px 13px -1px rgba(0, 0, 0, 0.2);
+  padding-bottom: 20px;
+  margin-left: 30%;
+  margin-right: 30%;
+  margin-bottom: 5%;
+}
+
+.contact-form input {
+  border-radius: 5px;
+  background: var(--darktext);
+  font-family: Roboto;
+  font-size: 14px;
+  border: 0;
+  margin: 10px;
+  padding: 10px;
+  width: 80%;
+  height: 30px;
+}
+  
+input:focus,
+textarea:focus {
+  outline: 2px solid var(--oj);
+}
+
+.contact-form textarea {
+  font-family: Roboto;
+  font-size: 16px;
+  background: var(--darktext);
+  border-radius: 5px;
+  resize: none;
+  border: 0;
+  padding: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  width: 80%;
+  height: 160px;
+}
+
+.contact-header {
+  font-size: 50px;
+  color:var(--darktext);
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+.contact-btn {
+  width: 30%;
+  height: 40px;
+  border: 0;
+  border-radius: 5px;
+  color: var(--white);
+  background: var(--oj);
+  cursor: pointer;
+  transition: transform 0.2s ease;
+}
+
+.contact-btn:hover {
+  transform: scale(110%);
+}
+
+.contact-alert {
+  margin: 0;
+  color: var(--oj);
+  opacity: 0;
+  transition: all 0.5s ease;
+}
