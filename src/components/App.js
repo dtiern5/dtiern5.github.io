@@ -5,6 +5,7 @@ import Home from './Home';
 import Technologies from './Technologies';
 import About from './About';
 import Contact from './Contact';
+import Projects from './Projects';
 import Footer from './Footer';
 
 function App() {
@@ -12,9 +13,9 @@ function App() {
         <div className="App">
             <Navbar />
             <Home />
-            
             <Technologies />
             <About />
+            <Projects />
             <Contact />
             <Footer />
         </div>

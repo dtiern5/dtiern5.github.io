@@ -1,28 +1,12 @@
-.technologies {
+.projects {
     background: url('/public/images/brilliant.png');
     background-color: var(--darkbg);
     padding-bottom: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
-  }
-
-.tech-container {
-    padding-left: 15%;
-    padding-right: 15%;
-    margin-bottom: 20px;
-    display: flex;
-    justify-content: space-between;
 }
 
-.tech {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex: 1;
-    padding: 0px 40px;
-}
-
-.section-span-technologies {
+.section-span-projects {
     float: right;
     margin-right: 20%;
     display: block;
@@ -32,12 +16,11 @@
     border-radius: 5px;
 }
 
-.section-header-technologies {
+.section-header-projects {
     color: var(--darktext);
-    padding-top: 0.75%;
+    padding-top: 1.5%;
     font-size: 40px;
     font-weight: 400;
-    margin: 0;
 }
 
 .section-header-right {
@@ -46,7 +29,25 @@
     margin-right: 20%;
 }
 
-.icons {
-    background-color: green;
-    width: 100px;
+.projects-container {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.project-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex: 1;
+    padding: 0px 40px;
+    color: var(--darktext);
+}
+
+.heroku-link {
+    color: var(--oj);
 }
