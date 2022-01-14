@@ -25,11 +25,12 @@ function Projects() {
                     </p>
                 </div>
                 <div className="project-box">
-                    <h2>ToDo Application</h2>
+                    <h2>Recipe Share</h2>
                     <p>
-                        Written with NodeJS, React, and connected to a Mongo database.
-                        Users can have multiple ToDo lists with persistent data. Create your
-                        own <a className="heroku-link" href="https://hippodo.herokuapp.com/" target="_blank" rel="noopener noreferrer">here</a>!
+                        Written with NodeJS, React, and connected to a Strapi backend.
+                        Users can add, edit, and delete recipes from their own recipe book,
+                        as well as share them with other users. Create your
+                        own <a className="heroku-link" href="/" target="_blank" rel="noopener noreferrer">here</a>!
                     </p>
                 </div>
             </div>
