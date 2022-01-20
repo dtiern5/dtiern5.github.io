@@ -10,8 +10,8 @@ function About() {
                     <h2 className="section-header-about ">About Me</h2>
                 </div>
 
-                <p>I'm a Software Developer from Saint Paul, MN. I love building modern web applications that solve life's unique problems. I work primarily with Java, React, Node, Express, and MongoDB.</p>
-                <p>I'm passionate about solving problems with software, and am currently looking for positions in Full-Stack Web Development. Feel free to contact me!</p>
+                <p>I'm a Software Developer from Saint Paul, MN. I love building modern web applications that solve unique problems. I work primarily with Java, React, Node, Express, and MongoDB.</p>
+                <p>I'm passionate about solving problems with software, and am currently looking for positions in Full-Stack Web Development. Feel free to <a className="contact-link" href="#contact">contact me</a>!</p>
             </div>
         </section>
     )
