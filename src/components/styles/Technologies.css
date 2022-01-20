@@ -52,21 +52,10 @@
     }
 }
 
-@media screen and (max-width: 1000px) {
-    .tech {
-        padding: 0px;
-    }
-}
-
 @media screen and (max-width: 600px) {
     .tech-container {
         flex-direction: column;
         align-items: center;
         /* padding: 0px; */
-    }
-
-    .tech {
-        width: 30%;
-        padding: 0px, 10px;
     }
 }
