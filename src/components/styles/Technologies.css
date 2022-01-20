@@ -4,6 +4,7 @@
     padding-bottom: 20px;
     margin-top: 100px;
     margin-bottom: 100px;
+    width: device-width;
   }
 
 .tech-container {
@@ -19,7 +20,7 @@
     justify-content: center;
     align-items: center;
     flex: 1;
-    padding: 0px 30px;
+    padding: 0px 10px;
 }
 
 .section-span-technologies {
@@ -46,15 +47,16 @@
     margin-right: 20%;
 }
 
-@media screen and (max-width: 1300px) {
-    .tech {
-        padding: 0px 10px;
+@media screen and (max-width: 800px) {
+    .section-header-technologies {
+        margin: 20px;
     }
-}
-
-@media screen and (max-width: 600px) {
-    .tech-container {
+    /* .tech-container {
         flex-direction: column;
-        /* align-items: center; */
+        align-items: center;
+    } */
+
+    .tech-img {
+        max-width: 4.5em;
     }
 }

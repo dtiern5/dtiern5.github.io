@@ -15,19 +15,19 @@ function Technologies() {
             </div>
             <div className="tech-container">
                 <div className="tech">
-                    <img src={nodeLogo}></img>
+                    <img className="tech-img" src={nodeLogo}></img>
                 </div>
                 <div className="tech">
-                    <img src={reactLogo}></img>
+                    <img className="tech-img" src={reactLogo}></img>
                 </div>
                 <div className="tech">
-                    <img src={javaLogo}></img>
+                    <img className="tech-img" src={javaLogo}></img>
                 </div>
                 <div className="tech">
-                    <img src={pythonLogo}></img>
+                    <img className="tech-img" src={pythonLogo}></img>
                 </div>
                 <div className="tech">
-                    <img src={mongoLogo}></img>
+                    <img className="tech-img" src={mongoLogo}></img>
                 </div>
                 
             </div>
