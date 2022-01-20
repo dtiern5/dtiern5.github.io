@@ -5,7 +5,7 @@ import './styles/Projects.css';
 function Projects() {
 
     return (
-        <section className="projects">
+        <section className="projects" id="projects">
 
             <div>
                 <span className="section-span-projects"></span>

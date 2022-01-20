@@ -45,6 +45,11 @@
 
 } */
 
+.contact-link {
+    color: var(--oj);
+}
+
+
 p {
     color: var(--darktext);
 }

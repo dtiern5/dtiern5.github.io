@@ -14,7 +14,6 @@ function Navbar() {
         <Box sx={{ flexGrow: 1 }}>
             <AppBar position="static">
                 <Toolbar className="navbar">
-
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         Home
                     </Typography>
