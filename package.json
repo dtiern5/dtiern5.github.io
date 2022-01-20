@@ -2,7 +2,7 @@
   "homepage": "http://dtiern5.github.io/portfolio",
   "name": "portfolio",
   "version": "0.1.0",
-  "private": false, 
+  "private": false,
   "dependencies": {
     "@emotion/react": "^11.7.1",
     "@emotion/styled": "^11.6.0",
@@ -18,6 +18,7 @@
     "passport-google-oauth20": "^2.0.0",
     "react": "^16.13.0",
     "react-dom": "^16.13.0",
+    "react-player": "^2.9.0",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.4",
     "react-typewriter-effect": "^1.1.0",

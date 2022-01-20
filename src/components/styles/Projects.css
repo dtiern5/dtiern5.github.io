@@ -35,21 +35,53 @@
     margin-bottom: 20px;
     display: flex;
     justify-content: space-between;
+    flex-direction: column;
 }
 
 .project-box {
+    background-color: var(--darkbg);
     display: flex;
-    flex-direction: column;
+    margin-bottom: 20px;
     justify-content: center;
     align-items: center;
     text-align: center;
     flex: 1;
-    padding: 0px 40px;
+    padding: 20px 40px;
     color: var(--darktext);
 }
 
+.project-text {
+    width: 40%;
+}
+
+.example-video {
+    width: 640px;
+    align-self: flex-end;
+    border-radius: 5px !important;
+    padding-right: 20px;
+}
+
+
 .heroku-link {
     color: var(--oj);
+}
+
+@media screen and (max-width: 1000px) {
+    .project-box {
+        flex-direction: column;
+        align-items: center;
+        padding: 0px;
+    }
+
+    .example-video {
+        width: 100% !important;
+        padding-right: 0px;
+    }
+
+    .project-text {
+        width: 100%;
+    }
+
 }
 
 @media screen and (max-width: 600px) {
