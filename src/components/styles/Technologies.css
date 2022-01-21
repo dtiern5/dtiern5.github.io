@@ -47,10 +47,18 @@
     margin-right: 20%;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1200px) {
     .section-header-technologies {
         margin: 20px;
     }
+
+    .tech-img {
+        max-width: 8em;
+    }
+}
+
+@media screen and (max-width: 800px) {
+
     /* .tech-container {
         flex-direction: column;
         align-items: center;

@@ -41,7 +41,7 @@
 .project-box {
     background-color: var(--darkbg);
     display: flex;
-    margin-bottom: 20px;
+    margin-bottom: 50px;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -66,7 +66,45 @@
     color: var(--oj);
 }
 
-@media screen and (max-width: 1000px) {
+.buttons {
+    display: block;
+    width: auto;
+    margin-bottom: 20px;
+}
+
+.github-btn {
+    margin: 10px;
+    width: 30%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: var(--white);
+    background: var(--oj);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.github-btn:hover {
+    transform: scale(110%);
+}
+
+.website-btn {
+    margin: 10px;
+    width: 30%;
+    height: 40px;
+    border: 0;
+    border-radius: 5px;
+    color: var(--darkbg);
+    background: var(--darktext);
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.website-btn:hover {
+    transform: scale(110%);
+}
+
+@media screen and (max-width: 1350px) {
     .project-box {
         flex-direction: column;
         align-items: center;
