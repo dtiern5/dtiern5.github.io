@@ -33,12 +33,10 @@ function Projects() {
                                 <button className="website-btn">Visit</button>
                             </a> */}
                         </div>
-
                     </div>
 
                 </div>
                 <div className="project-box">
-
                     <ReactPlayer controls="true" className="example-video" width="640px" url="https://youtu.be/8ogSebUvwMA" />
                     <div className="project-text">
                         <h2>Butterfly Identifier</h2>
@@ -57,7 +55,6 @@ function Projects() {
                             </a> */}
                         </div>
                     </div>
-
                 </div>
                 <div className="project-box">
                     <ReactPlayer controls="true" className="example-video" width="640px" url="https://youtu.be/tb4hLt7_SIo" />

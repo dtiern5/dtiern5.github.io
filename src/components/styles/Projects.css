@@ -42,6 +42,7 @@
     background-color: var(--darkbg);
     display: flex;
     margin-bottom: 50px;
+    border-radius: 2em;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -57,7 +58,6 @@
 .example-video {
     width: 640px;
     align-self: flex-end;
-    border-radius: 5px !important;
     padding-right: 20px;
 }
 
