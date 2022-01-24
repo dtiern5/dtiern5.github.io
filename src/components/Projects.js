@@ -29,9 +29,9 @@ function Projects() {
                                     Source code
                                 </button>
                             </a>
-                            <a href="https://chef-share.herokuapp.com/" target="blank">
+                            {/* <a href="https://chef-share.herokuapp.com/" target="blank">
                                 <button className="website-btn">Visit</button>
-                            </a>
+                            </a> */}
                         </div>
 
                     </div>
@@ -52,10 +52,9 @@ function Projects() {
                             <a href="https://github.com/dtiern5/Butterfly-Species-Identifier" target="blank">
                                 <button className="github-btn">Source code</button>
                             </a>
-                            <a href="https://butterfly-recog.herokuapp.com/" target="blank">
+                            {/* <a href="https://butterfly-recog.herokuapp.com/" target="blank">
                                 <button className="website-btn">Visit</button>
-                            </a>
-
+                            </a> */}
                         </div>
                     </div>
 
