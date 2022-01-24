@@ -2,7 +2,6 @@
     width: 100%;
     display: flex;
     height: calc(65vh - 40px);
-    
 }
 
 h1 {
@@ -11,6 +10,7 @@ h1 {
 }
 
 .home-intro {
+    padding-top: 8%;
     width: 50%;
     display: flex;
     flex-direction: column;
