@@ -12,7 +12,7 @@ const ScrollLink = Scroll.ScrollLink;
 function Navbar() {
     return (
         <Box sx={{ flexGrow: 1 }}>
-            <AppBar position="fixed">
+            <AppBar position="static">
                 <Toolbar className="navbar">
                     <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
                         <Button className="nav-link" color="inherit" href="#home">Home</Button>
