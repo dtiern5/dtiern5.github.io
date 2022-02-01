@@ -1,14 +1,13 @@
 @import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
 
 :root {
-    --bg: #333238;
-    --darkbg: #161616;
+    --bg: #232325;
+    --darkbg: #181818;
     --project: #696778;
     --oj: #f87537;
-    --lightoj: #fba81f;
-    --darktext: #bfbfbf;
+    --lightoj: #df941c;
+    --darktext: #d3d3d3;
     --white: #fafafa;
-    --footer: #333334;
   }
 
 body {

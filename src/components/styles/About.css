@@ -18,8 +18,8 @@
 .section-span-about {
     margin-left: 20%;
     display: block;
-    width: 72px;
-    height: 5px;
+    width: 90px;
+    height: 7px;
     background: linear-gradient(90deg, #f87537 0%, #fba81f 100%);
     border-radius: 5px;
 
@@ -33,8 +33,8 @@
     flex: 1; 
     white-space: nowrap;
     justify-content: space-between;
-    margin-top: 15px;
-    margin-bottom: 20px;
+    margin-top: 2%;
+    margin-bottom: 1%;
     font-size: 40px;
     font-weight: 400;
 }

@@ -18,7 +18,7 @@ h1 {
     align-items: flex-start;
     margin-left: 20%;
     margin-bottom: 50px;
-    color: white;
+    color: var(--darktext);
     text-align: left;
 }
 
@@ -37,7 +37,7 @@ h1 {
 
 .text {
     font-size: 40px;
-    color: #ffffff;
+    color: var(--darktext);
     margin-bottom: 20px;
 }
 
